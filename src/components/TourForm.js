@@ -39,6 +39,14 @@ const TourForm = (props) => {
                     <Input type="email" name="email" id="email" placeholder="test@test.com" />
                 </div>
             </FormGroup>
+            <FormGroup row>
+                <div className="col-md-2">
+                    <Label for="date">Date</Label>
+                </div>
+                <div className="col-md-10">
+                    <Input type="date" name="date" id="date" placeholder="mm/dd/yyyy" />
+                </div>
+            </FormGroup>
         </Form>
     );
 }
