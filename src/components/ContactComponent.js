@@ -48,6 +48,7 @@ const Contact = (props) => {
           height="300"
           allowfullscreen=""
           loading="lazy"
+          className="map-image"
         ></iframe>
         </div>
       </Row>

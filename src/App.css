@@ -28,4 +28,33 @@ a, a:hover {
 
 .col-md {
   margin-bottom: 20px;
+  margin-left: 10px;
 }
+
+.img-fluid {
+  transition: transform 450ms;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.map-image {
+  transition: transform 450ms;
+}
+
+.map-image:hover {
+  transform: scale(1.05);
+}
+
+Button {
+  transition: transform .2s ease-in-out 0s;
+}
+
+Button:hover {
+  transform: scale(1.1);
+  background: transparent !important;
+  color: #d7695c !important;
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
