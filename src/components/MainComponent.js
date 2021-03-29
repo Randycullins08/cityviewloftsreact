@@ -8,9 +8,6 @@ import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from "react-router-dom";
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
